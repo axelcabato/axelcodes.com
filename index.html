@@ -61,10 +61,18 @@
         <form action="" id="newsletter_subscription" name="newsletter_subscription">
             <fieldset>
                 <legend>Subscribe to my Newsletter:</legend>
+                <!--Name-->
                 <label for="full_name">Name:</label><br>
                 <input type="text" id="full_name" name="full_name" placeholder="First & Last Name" value="First & Last Name"><br>
+                <!--Email-->
                 <label for="email">Email:</label><br>
                 <input type="email" id="email" placeholder="xyz@email.com" value="xyz@email.com"><br>
+                <!--Preferred Email Frenquency-->
+                <label for="option">Select one:</label>
+                <select name="email_frequency" id="option">
+                    <option value="bi-weekly">Bi-Weekly</option>
+                    <option value="monthly">Monthly</option>
+                </select><br>
                 <input type="submit" onclick="">
             </fieldset>
         </form>
