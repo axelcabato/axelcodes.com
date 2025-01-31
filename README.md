@@ -1,3 +1,3 @@
-# axelcabato.com
+# axelcodes.com
 
-A project to code my own personal website to full functionality.
+A project attempting to code my first website to full functionality. Utilizing HTML, CSS, and JavaScript.
